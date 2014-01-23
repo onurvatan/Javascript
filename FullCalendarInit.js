@@ -1,4 +1,3 @@
-
         myCalendar = $('#calendar').fullCalendar({
             eventClick: function (calEvent, jsEvent, view) {
                 openPopup("new_carrental", calEvent.id);
